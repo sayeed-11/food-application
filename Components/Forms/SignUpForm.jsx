@@ -95,7 +95,7 @@ const SignUpForm = ({navigation}) => {
                                     </View>
                                     <TextInput selectionColor={'#FFF'} style={{
                                         flex: 1,
-                                        paddingVertical: rh(1.3),
+                                        paddingVertical: rh(2),
                                         paddingHorizontal: rw(2),
                                         color: '#FFF'
                                     }} placeholder='Enter username' placeholderTextColor={'gray'} />
@@ -134,7 +134,7 @@ const SignUpForm = ({navigation}) => {
                                     </View>
                                     <TextInput selectionColor={'#FFF'} style={{
                                         flex: 1,
-                                        paddingVertical: rh(1.3),
+                                        paddingVertical: rh(2),
                                         paddingHorizontal: rw(2),
                                         color: '#FFF'
                                     }} placeholder='Enter email id' placeholderTextColor={'gray'} />
@@ -174,7 +174,7 @@ const SignUpForm = ({navigation}) => {
                                     </View>
                                     <TextInput selectionColor={'#FFF'} secureTextEntry={hide1} style={{
                                         flex: 1,
-                                        paddingVertical: rh(1.3),
+                                        paddingVertical: rh(2),
                                         paddingHorizontal: rw(2),
                                         color: '#FFF'
                                     }} placeholder='Enter password' placeholderTextColor={'gray'} />
@@ -221,7 +221,7 @@ const SignUpForm = ({navigation}) => {
                                     </View>
                                     <TextInput selectionColor={'#FFF'} secureTextEntry={hide2} style={{
                                         flex: 1,
-                                        paddingVertical: rh(1.3),
+                                        paddingVertical: rh(2),
                                         paddingHorizontal: rw(2),
                                         color: '#FFF'
                                     }} placeholder='Enter confirm password' placeholderTextColor={'gray'} />

@@ -102,7 +102,7 @@ const LogInForm = ({navigation}) => {
                                     </View>
                                     <TextInput value={username} onChangeText={text => {setUsername(text)}} selectionColor={'#FFF'} style={{
                                         flex: 1,
-                                        paddingVertical: rh(1.3),
+                                        paddingVertical: rh(2),
                                         paddingHorizontal: rw(2),
                                         color: '#FFF'
                                     }} placeholder='Enter user id' placeholderTextColor={'gray'} />
@@ -139,7 +139,7 @@ const LogInForm = ({navigation}) => {
                                     </View>
                                     <TextInput value={password} onChangeText={text => {setpassword(text)}} selectionColor={'#FFF'} secureTextEntry={hide} style={{
                                         flex: 1,
-                                        paddingVertical: rh(1.3),
+                                        paddingVertical: rh(2),
                                         paddingHorizontal: rw(2),
                                         color: '#FFF'
                                     }} placeholder='Enter password' placeholderTextColor={'gray'} />

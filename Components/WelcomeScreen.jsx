@@ -41,7 +41,7 @@ const WelcomeScreen = () => {
         }, 100)
         setTimeout(() => {
             navigation.navigate('LogInForm');
-        }, 1200)
+        }, 12000)
     })
     return (
         <SafeAreaView style={{
